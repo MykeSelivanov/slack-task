@@ -58,13 +58,13 @@ Test scenario:
     ```
     it will execute ```npx playwright test --config=globalconfig/playwright.config.ts``` script, which points to global configuration file
     
- 7. Enjoy the test run! (Config is set to headless=false, so you can actually see what's going on in the browser, you can switch it to =true and check the test logging in console)
+ 7. Enjoy the test run! (Config is set to headless=false, so you can actually see what's going on in the browser, or you can switch to headless=true and check the test logging in console)
  
  ## Test results
  Playwright Test will provide test result in CLI as well as it will generate/update ```test-results.json``` file in this project. Also, you can find test results in the test execution log in console
  
  ## Something went wrong AKA Hiccups
- - As I already mentioned above there could be some issues, if you have desktop client installed. By default Playwright 
+ - As I already mentioned above, there could be some issues, if you have desktop client installed. By default Playwright 
  dismisses all the browser alerts, but I envision there might be some hiccups there. Explicit dismiss for browser alert 
  might solve the issue or mouse click by coordinates, where 'Dismiss' button located, but I'm sure more elegant way of
  doing that already exists in Slack automation utilities =)
