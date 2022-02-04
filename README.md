@@ -20,7 +20,7 @@ Test scenario:
  I decided to go with Playwright for 2 reasons:
  - that's the growing in popularity tool that I'm actively exploring right now
  - Alan mentioned that you're looking into it at as well at Slack <br>
- Feel free to use anything from this framework, that you find interesting 
+ Feel free to use anything from this framework, that you find interesting <br>
  Initial thought was to choose between Cypress and Playwright, but after a couple dry-runs I haven't noticed any 
  performance benefits for Cypress considering pretty small scope of the test scenario
  
